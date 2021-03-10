@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="iconColor">@color/white</color>
+    <color name="textColor">@color/white</color>
+
+    //relative to night
+    <color name="colorPrimary">#00abff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="colorText">#2C2C2C</color>
+
+    <color name="drawer_item_bg_p">#e8e8e8</color>
+    <color name="drawer_item_bg_n">#fffff9</color>
+
+    <color name="comment_text">#5b5d5c</color>
+    <color name="setting_text">#5b5d5c</color>
+    <color name="comment_line">#dddddd</color>
+    <color name="grey_search">#FF999999</color>
+    <color name="colorPrimaryOverlay">#00abff</color>
+    <color name="delete_text">#cccccc</color>
+    <color name="deep_grey">#e6e6e6</color>
+    <color name="dialog_background">#ffffff</color>
+    <color name="yellow">#f39c12</color>
+    <color name="search_grey_gone">#bbbbbb</color>
+    <color name="search_grey">#FF000000</color>
+    <color name="main_status_bar_blue">#279ede</color>
+    <color name="search_status_bar_white">#ffffff</color>
+    <color name="register_bac">#303c59</color>
+
+    //other
+    <color name="shallow_green">#FF36BC9B</color>
+    <color name="shallow_grey">#FF757575</color>
+    <color name="card_color">#202124</color>
+    <color name="grey">#cccccc</color>
+
+    <color name="grey_bg">#EDEDED</color>
+    <color name="card_bac">#f7f3f3</color>
+    <color name="light_red">#e26d2e</color>
+    <color name="light_deep_red">#f9382a</color>
+    <color name="deep_red">#dc3b1f</color>
+    <color name="while_most_color">#e4e4e4</color>
+
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg">#E3E3E3</color>
+    <!--通用背景色-->
+    <color name="common_bg">@color/white</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#f4f0f0</color>
+    <color name="black">#333333</color>
+    <color name="title_black">#222222</color>
+    <color name="grey_divider">#E5E5E5</color>
+    <color name="blue">#3F9FE0</color>
+    <color name="light_green">#3fc75f</color>
+    <color name="tab_bac">#049486</color>
+    <color name="light_tab_bac">#45c1b5</color>
+</resources>

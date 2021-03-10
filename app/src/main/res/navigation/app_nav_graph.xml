@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation_graph"
+    app:startDestination="@id/featureHomeNavGraph">
+
+    <include-dynamic
+        android:id="@+id/featureHomeNavGraph"
+        app:graphResName="feature_home_nav_graph"
+        app:moduleName="feature_home"/>
+
+    <include-dynamic
+        android:id="@+id/featureKnowLedgeNavGraph"
+        app:graphResName="feature_knowledge_nav_graph"
+        app:moduleName="feature_knowledge"/>
+
+    <include-dynamic
+        android:id="@+id/featureProjectNavGraph"
+        app:graphResName="feature_project_nav_graph"
+        app:moduleName="feature_project"/>
+
+    <include-dynamic
+        android:id="@+id/featureNaviNavGraph"
+        app:graphResName="feature_navi_nav_graph"
+        app:moduleName="feature_navi"/>
+
+    <include-dynamic
+        android:id="@+id/featurePublicNavGraph"
+        app:graphResName="feature_public_public_graph"
+        app:moduleName="feature_public"/>
+
+</navigation>

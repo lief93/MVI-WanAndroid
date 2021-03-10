@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/naviFragment">
+    <fragment
+        android:id="@+id/naviFragment"
+        android:name="com.example.navi.presentation.navi.NaviFragment"
+        android:label="NaviFragment"
+        app:moduleName="feature_navi"/>
+</navigation>

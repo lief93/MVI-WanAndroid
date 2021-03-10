@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/publicFragment">
+    <fragment
+        android:id="@+id/publicFragment"
+        app:moduleName="feature_public"
+        android:name="com.example.public.presentation.public.PublicFragment"
+        android:label="Public_fragment"
+
+        />
+</navigation>

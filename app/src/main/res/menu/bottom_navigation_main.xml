@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/featureHomeNavGraph"
+        android:enabled="true"
+        android:icon="@drawable/icon_home_pager_not_selected"
+        android:title="@string/home_pager"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/featureKnowLedgeNavGraph"
+        android:enabled="true"
+        android:icon="@drawable/icon_knowledge_hierarchy_not_selected"
+        android:title="@string/knowledge_hierarchy"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/featurePublicNavGraph"
+        android:enabled="true"
+        android:icon="@drawable/ic_wx_article"
+        android:title="@string/wx_article"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/featureNaviNavGraph"
+        android:enabled="true"
+        android:icon="@drawable/icon_navigation_not_selected"
+        android:title="@string/navigation"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/featureProjectNavGraph"
+        android:enabled="true"
+        android:icon="@drawable/icon_project_not_selected"
+        android:title="@string/project"
+        app:showAsAction="ifRoom" />
+</menu>

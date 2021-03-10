@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kotlinwanandroiddemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+<!--        <item name="android:windowAnimationStyle">@style/windowAnimation</item>-->
+        <!-- Set menu background and text color -->
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+
+        //沉浸状态栏
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <style name="windowAnimation">-->
+<!--        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>-->
+<!--        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>-->
+<!--        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>-->
+<!--        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>-->
+<!--    </style>-->
+</resources>
